@@ -1,0 +1,23 @@
+.teacher-details-container {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .teacher-details-info {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .teacher-details-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+  }
+  
+  .teacher-details-image-container img {
+    max-width: 80%;
+    max-height: 80%;
+  }

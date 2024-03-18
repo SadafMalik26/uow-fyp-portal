@@ -1,0 +1,47 @@
+
+  h2 {
+    font-size: 24px;
+    color: #3366cc;
+  }
+  
+  .custom-card {
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        background: linear-gradient(135deg, #a4b3f7 0%, #764ba2 100%);
+        border-radius: 10px;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+        position: relative;
+        overflow: hidden;
+        color: #212529;
+  }
+  
+  .custom-card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #141414;
+    margin-bottom: 20px;
+  }
+  
+  .student-item {
+    margin-bottom: 10px;
+  }
+  
+  .custom-checkbox {
+    align-items: center;
+    font-size: 19px;
+}
+  .custom-button {
+    background-color: #ffffff;
+    border-color: #999ae2;
+    margin-top: 20px;
+    color: black;
+}
+
+.alertAttendance{
+background-color: red;
+color:white
+}
+
+.alertAttendance h2{ 
+  color:white
+  }

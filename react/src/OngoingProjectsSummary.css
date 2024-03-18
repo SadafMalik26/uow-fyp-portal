@@ -1,0 +1,32 @@
+.ongoing-projects-card {
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .project-count-circle {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4f98ca;
+  }
+  
+  .project-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .project-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  

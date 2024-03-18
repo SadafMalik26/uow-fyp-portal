@@ -1,0 +1,55 @@
+.chat-container {
+    margin-top: 20px;
+  }
+  
+  .chat-card {
+    height: 70vh;
+    overflow-y: scroll;
+  }
+  
+  .message-bubble {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .emoji-icon{
+    width: 40px;
+    height: 50px;
+    color:primary;
+    overflow-y: visible;
+    
+  }
+  .message {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .sender {
+    font-weight: bold;
+    font: size 16px;
+  }
+  
+  .text {
+    margin-left: 10px;
+  }
+  
+  
+  .message.right-align {
+    align-self: flex-end;
+    text-align: right;
+    
+  }
+  
+  .message.left-align {
+    text-align: left;
+  }
+  
+  .message.Teacher .sender {
+    color: #2ecc71;
+  }
+  
+  .message.Student .sender {
+    color: #ff0000;
+  }
+  
